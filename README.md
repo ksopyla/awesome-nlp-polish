@@ -1,6 +1,7 @@
 # awesome-nlp-polish
 A curated list of resources dedicated to Natural Language Processing (NLP) in polish. Models, tools, datasets.
 
+![Awesome NLP Polish Logo](/Awesome_nlp_polish.png)
 
 
 ## Models
