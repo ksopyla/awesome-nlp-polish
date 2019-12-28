@@ -17,6 +17,10 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * Word embeddings and language models for polish (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
 * Polish Word Embeddings Review - Evaluation of polish word embeddings prepared by various research groups. Evaluation is done by words analogy task https://github.com/Ermlab/polish-word-embeddings-review
 
+## Reserch papers
+
+* "Evaluation of Sentence Representations in Polish" - Sławomir Dadas, Michał Perełkiewicz, Rafał Poswiata 2019 https://arxiv.org/pdf/1910.11834.pdf
+
 
 ## Datasets
 
