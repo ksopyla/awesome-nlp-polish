@@ -7,7 +7,6 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 * [SlavicBert - multilingual BERT model. The repository contains Bulgarian+Czech+Polish+Russian](https://github.com/deepmipt/Slavic-BERT-NER) 
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
-
 * Word2vec polish models http://dsmodels.nlp.ipipan.waw.pl/w2v.html
 * FastText polish model FB - Common Crawl, Wikipedia
 * FastText polish model 
@@ -37,6 +36,6 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 ## Contributors
 People who contribute to this project.
 
-* Krzysztof Sopyła - https://ksopyla.com
+* Krzysztof Sopyła - https://ksopyla.com [LinkedIn](https://www.linkedin.com/in/krzysztofsopyla/)
 
 
