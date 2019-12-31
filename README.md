@@ -28,7 +28,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [The KLEJ (Kompleksowa Lista Ewaluacji Językowych) benchmark is a set of nine evaluation tasks for the Polish language understanding.](https://klejbenchmark.com/index.html)
 * [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700)
 * PolEval datasets - 
-    * Hate speach classification - In this task, the participants are to distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1). This includes cyberbullying, hate speech and related phenomena: [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[Ermlab mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
+    * Hate speech classification - In this task, the participants are to distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1). This includes cyberbullying, hate speech and related phenomena: [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[Ermlab mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
 * Ermlab Opineo dataset - https://github.com/Ermlab/pl-sentiment-analysis - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
 * HateSpeech corpus in the current version contains over 2000 posts crawled from public Polish web. They represent various types and degrees of offensive language, expressed toward minorities (eg. ethnical, racial). The data were annotated manually. http://zil.ipipan.waw.pl/HateSpeech
 
