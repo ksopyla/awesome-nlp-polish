@@ -13,6 +13,12 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * FastText polish model 
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
 
+## Language processing resources
+
+* [Morfologik](https://github.com/morfologik/morfologik-stemming) (Java) and [pyMorfologik](https://github.com/dmirecki/pyMorfologik) (Python wrapper) - dictionary-based morphological analyzer
+* [Morfeusz](http://morfeusz.sgjp.pl/download/) - morphological analyzer. See also [Elasticsearch plugin](https://github.com/allegro/elasticsearch-analysis-morfologik)
+* [Stempel](https://github.com/dzieciou/pystempel) (Python port) - algorithmic stemmer. See also [Elasticsearch plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-stempel.html)
+
 ## Useful articles or projects
 
 * Word embeddings and language models for polish (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
