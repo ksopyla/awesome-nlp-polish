@@ -9,11 +9,12 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [SlavicBert - multilingual BERT model. The repository contains Bulgarian+Czech+Polish+Russian](https://github.com/deepmipt/Slavic-BERT-NER) 
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
 * Word2vec polish models http://dsmodels.nlp.ipipan.waw.pl/w2v.html
-* FastText polish model FB - Common Crawl, Wikipedia
-* FastText polish model 
+* FastText polish model FB - train on: [Common Crawl](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md), [Wikipedia](https://github.com/facebookresearch/fastText/blob/master/docs/pretrained-vectors.md)
+* [FastText KGR10 polish model binary](https://clarin-pl.eu/dspace/handle/11321/600)
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
-* https://nlp.h-its.org/bpemb/
-* Flair
+* [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - "pl-forward pl-backward"
+* [BPEmb: Subword Embeddings includes polish](https://nlp.h-its.org/bpemb/) - easy to use with [Flair](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/BYTE_PAIR_EMBEDDINGS.md)
+* [ELMO embeddings] - todo
 
 ## Language processing resources and libs
 
@@ -41,7 +42,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Ermlab Opineo dataset](https://github.com/Ermlab/pl-sentiment-analysis)- opineo reviews - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
 * HateSpeech corpus contains over 2000 posts crawled from public Polish web.http://zil.ipipan.waw.pl/HateSpeech
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
-* [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regural monthly copy of Polish wikipedia. More then 4GB of text.
+* [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
 * [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
 
 
