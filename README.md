@@ -4,7 +4,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 ![Awesome NLP Polish Logo](/Awesome_nlp_polish.png)
 
 
-## Models
+## Models (Embeddings)
 
 * [SlavicBert - multilingual BERT model. The repository contains Bulgarian+Czech+Polish+Russian](https://github.com/deepmipt/Slavic-BERT-NER) 
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
@@ -12,6 +12,8 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * FastText polish model FB - Common Crawl, Wikipedia
 * FastText polish model 
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
+* https://nlp.h-its.org/bpemb/
+* Flair
 
 ## Language processing resources
 
@@ -21,12 +23,11 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 ## Useful articles or projects
 
-* Word embeddings and language models for polish (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
+* Github Repo with list of polish: word embeddings and language models (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
 * Polish Word Embeddings Review - Evaluation of polish word embeddings prepared by various research groups. Evaluation is done by words analogy task https://github.com/Ermlab/polish-word-embeddings-review
+* [Polish Sentence Evaluation](https://github.com/sdadas/polish-sentence-evaluation)- contains evaluation of eight sentence representation methods (Word2Vec, GloVe, FastText, ELMo, Flair, BERT, LASER, USE) on five polish linguistic tasks
 
-## Reserch papers
 
-* "Evaluation of Sentence Representations in Polish" - Sławomir Dadas, Michał Perełkiewicz, Rafał Poswiata 2019 https://arxiv.org/pdf/1910.11834.pdf
 
 
 ## Datasets
@@ -43,9 +44,9 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regural monthly copy of Polish wikipedia. More then 4GB of text.
 
 
-## Research Gropus
+## Reserch papers
 
-
+* "Evaluation of Sentence Representations in Polish" - Sławomir Dadas, Michał Perełkiewicz, Rafał Poswiata 2019 https://arxiv.org/pdf/1910.11834.pdf
 
 
 ## Contributors
