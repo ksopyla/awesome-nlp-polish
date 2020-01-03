@@ -39,6 +39,9 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * Ermlab Opineo dataset - https://github.com/Ermlab/pl-sentiment-analysis - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
 * HateSpeech corpus in the current version contains over 2000 posts crawled from public Polish web. They represent various types and degrees of offensive language, expressed toward minorities (eg. ethnical, racial). The data were annotated manually. http://zil.ipipan.waw.pl/HateSpeech
 
+* [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
+* [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regural monthly copy of Polish wikipedia. More then 4GB of text.
+
 
 ## Research Gropus
 
