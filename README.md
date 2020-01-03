@@ -15,11 +15,12 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * https://nlp.h-its.org/bpemb/
 * Flair
 
-## Language processing resources
+## Language processing resources and libs
 
 * [Morfologik](https://github.com/morfologik/morfologik-stemming) (Java) and [pyMorfologik](https://github.com/dmirecki/pyMorfologik) (Python wrapper) - dictionary-based morphological analyzer
 * [Morfeusz](http://morfeusz.sgjp.pl/download/) - morphological analyzer. See also [Elasticsearch plugin](https://github.com/allegro/elasticsearch-analysis-morfologik)
 * [Stempel](https://github.com/dzieciou/pystempel) (Python port) - algorithmic stemmer. See also [Elasticsearch plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-stempel.html)
+* [scaCy for Polish](http://spacypl.sigmoidal.io/) - extend spaCy, a popular production-ready NLP library, to fully support Polish language.
 
 ## Useful articles or projects
 
