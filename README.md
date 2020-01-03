@@ -11,6 +11,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * Word2vec polish models http://dsmodels.nlp.ipipan.waw.pl/w2v.html
 * FastText polish model FB - Common Crawl, Wikipedia
 * FastText polish model 
+* [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
 
 ## Useful articles or projects
 
