@@ -8,13 +8,15 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 * [SlavicBert - multilingual BERT model. The repository contains Bulgarian+Czech+Polish+Russian](https://github.com/deepmipt/Slavic-BERT-NER) 
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
+* [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
+* [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - "pl-forward pl-backward"
 * Word2vec polish models http://dsmodels.nlp.ipipan.waw.pl/w2v.html
 * FastText polish model FB - train on: [Common Crawl](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md), [Wikipedia](https://github.com/facebookresearch/fastText/blob/master/docs/pretrained-vectors.md)
 * [FastText KGR10 polish model binary](https://clarin-pl.eu/dspace/handle/11321/600)
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
-* [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - "pl-forward pl-backward"
+
 * [BPEmb: Subword Embeddings includes polish](https://nlp.h-its.org/bpemb/) - easy to use with [Flair](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/BYTE_PAIR_EMBEDDINGS.md)
-* [ELMO embeddings] - todo
+
 
 ## Language processing resources and libs
 
@@ -36,9 +38,10 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 
 * [The KLEJ (Kompleksowa Lista Ewaluacji Językowych) benchmark is a set of nine evaluation tasks for the Polish language understanding.](https://klejbenchmark.com/index.html)
-* [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700)
 * PolEval datasets - 
-    * Hate speech classification -distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1) [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[Ermlab mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
+    * Hate speech classification -distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1) [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
+* [Polish CDSCorpus](http://zil.ipipan.waw.pl/Scwad/CDSCorpus) - The dataset for compositional distributional semantics. Polish CDSCorpus consists of 10K Polish sentence pairs which are human-annotated for semantic relatedness and entailment. 
+* [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700)    
 * [Ermlab Opineo dataset](https://github.com/Ermlab/pl-sentiment-analysis)- opineo reviews - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
 * HateSpeech corpus contains over 2000 posts crawled from public Polish web.http://zil.ipipan.waw.pl/HateSpeech
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
