@@ -53,6 +53,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 ## Reserch papers
 
 * "Evaluation of Sentence Representations in Polish" - Sławomir Dadas, Michał Perełkiewicz, Rafał Poswiata 2019 https://arxiv.org/pdf/1910.11834.pdf
+* "Multi-level analysis and recognition of the text sentiment on the example of consumer opinions" - Kocoń Jan, Zaśko-Zielińska Monika, Miłkowski Piotr, 2019
 
 
 ## Contributors
