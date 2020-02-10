@@ -48,6 +48,8 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
 * [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
 * [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
+* [Polish OpenSubtitles](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/).
+* [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
 
 
 ## Reserch papers
