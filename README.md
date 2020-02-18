@@ -26,6 +26,9 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Stempel](https://github.com/dzieciou/pystempel) (Python port) - algorithmic stemmer. See also [Elasticsearch plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-stempel.html)
 * [scaCy for Polish](http://spacypl.sigmoidal.io/) - extend spaCy, a popular production-ready NLP library, to fully support Polish language.
 
+
+* List of polish abbrevations for NLTK https://gist.github.com/ksopyla/f05fe2f48bbc9de895368b8a7863b5c3
+
 ## Useful articles or projects
 
 * Github Repo with list of polish: word embeddings and language models (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
