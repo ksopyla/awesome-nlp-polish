@@ -8,6 +8,9 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 * [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
+
+* [Polish Roberta Model](https://github.com/sdadas/polish-nlp-resources?fbclid=IwAR0tv_YbuBwfFirGFQvqaGdCSL6BV-9pNW8Wm3gkGiyXNajE_M9tpY0hIaM#roberta) - model was trained on a corpus consisting of Polish Wikipedia dump, Polish books and articles, Polish Parliamentary Corpus
+
 * [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
 * [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - Contextual string embeddings that capture latent syntactic-semantic information that goes beyond standard word embeddings. There are two models "pl-forward and pl-backward" 
 * [IPIPAN Word2vec polish models](http://dsmodels.nlp.ipipan.waw.pl/w2v.html)
