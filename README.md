@@ -53,6 +53,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
 * [Polish OpenSubtitles](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/).
 * [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
+* [Polish Parliamentary Corpus](https://clarin-pl.eu/dspace/handle/11321/467)
 
 
 ## Reserch papers
