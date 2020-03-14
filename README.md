@@ -69,8 +69,4 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 
 ## Contributors
-People who contribute to this project.
-
-* Krzysztof Sopyła - https://ksopyla.com [LinkedIn](https://www.linkedin.com/in/krzysztofsopyla/)
-
 
