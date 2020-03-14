@@ -6,10 +6,12 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 ## Models (Embeddings)
 
-* [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
-* Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
-
+* [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
 * [Polish Roberta Model](https://github.com/sdadas/polish-nlp-resources?fbclid=IwAR0tv_YbuBwfFirGFQvqaGdCSL6BV-9pNW8Wm3gkGiyXNajE_M9tpY0hIaM#roberta) - model was trained on a corpus consisting of Polish Wikipedia dump, Polish books and articles, Polish Parliamentary Corpus
+* Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
+* [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
+
+
 
 * [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
 * [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - Contextual string embeddings that capture latent syntactic-semantic information that goes beyond standard word embeddings. There are two models "pl-forward and pl-backward" 
@@ -57,6 +59,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Polish OpenSubtitles](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/).
 * [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
 * [Polish Parliamentary Corpus](https://clarin-pl.eu/dspace/handle/11321/467) 15GB of text from proceedings of Polish Parliament, Sejm and Senate
+* [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
 
 
 ## Reserch papers
