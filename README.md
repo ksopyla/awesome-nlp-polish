@@ -39,7 +39,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * Github Repo with list of polish: word embeddings and language models (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
 * [Polish Word Embeddings Review](https://github.com/Ermlab/polish-word-embeddings-review) - Evaluation of polish word embeddings: word2vec, fastext etc. prepared by various research groups. Evaluation is done by words analogy task. 
 * [Polish Sentence Evaluation](https://github.com/sdadas/polish-sentence-evaluation)- contains evaluation of eight sentence representation methods (Word2Vec, GloVe, FastText, ELMo, Flair, BERT, LASER, USE) on five polish linguistic tasks
-
+* [TRAINING ROBERTA FROM SCRATCH - THE MISSING GUIDE](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/) - complete user guide for trainning Roberta model with use of Huggingface/Transformers for polish
 
 
 
