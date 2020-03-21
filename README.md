@@ -45,6 +45,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 ## Datasets
 
+### Task oriented datsets
 
 * [The KLEJ (Kompleksowa Lista Ewaluacji Językowych) benchmark is a set of nine evaluation tasks for the Polish language understanding.](https://klejbenchmark.com/index.html)
 * PolEval datasets - 
@@ -53,13 +54,21 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700) - corpus of Polish reviews annotated with sentiment at the level of the whole text (*text*) and at the level of sentences (*sentence*) for the following domains: hotels, medicine, products and university (reviews*)    
 * [Ermlab Opineo dataset](https://github.com/Ermlab/pl-sentiment-analysis)- opineo reviews - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
 * HateSpeech corpus contains over 2000 posts crawled from public Polish web.http://zil.ipipan.waw.pl/HateSpeech
+* [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
+* [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
+* [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
+
+
+### Raw texts
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
 * [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
-* [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
-* [Polish OpenSubtitles](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/).
-* [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
-* [Polish Parliamentary Corpus](https://clarin-pl.eu/dspace/handle/11321/467) 15GB of text from proceedings of Polish Parliament, Sejm and Senate
-* [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
+
+* [Opus - the open parallel corpus](http://opus.nlpl.eu/) - you can select languages and download only polish file
+    * [Polish OpenSubtitles v2018](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - sentences 45.9M, polish tokens 287.1M ,collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/) [raw txt corpus (unpacked 7.2GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.txt.gz) [tokenized txt corpus (unpacked 7.6GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.tok.gz).
+    * [ParaCrawl v5](http://opus.nlpl.eu/ParaCrawl-v5.php) sentences 6.4M, polish tokens 157.1M [raw txt corpus (unpacked 1.1GB)](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.txt.gz) [tokenized txt corpus](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.tok.gz)
+
+
+* [Polish Parliamentary Corpus](http://clip.ipipan.waw.pl/PPC) text from proceedings of Polish Parliament, Sejm and Senate
 
 
 ## Reserch papers
