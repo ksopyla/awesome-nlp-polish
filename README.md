@@ -39,6 +39,8 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 
 ## Useful articles or projects
 
+
+* [Benchmarks of some of polish NLP tools](http://clip.ipipan.waw.pl/benchmarks) - Single-word lemmatization and morphological analysis, Multi-word lemmatization,Disambiguated POS tagging, Dependency parsing, Shallow parsing, Named entity recognition, Summarization etc.
 * Github Repo with list of polish: word embeddings and language models (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
 * [Polish Word Embeddings Review](https://github.com/Ermlab/polish-word-embeddings-review) - Evaluation of polish word embeddings: word2vec, fastext etc. prepared by various research groups. Evaluation is done by words analogy task. 
 * [Polish Sentence Evaluation](https://github.com/sdadas/polish-sentence-evaluation)- contains evaluation of eight sentence representation methods (Word2Vec, GloVe, FastText, ELMo, Flair, BERT, LASER, USE) on five polish linguistic tasks
@@ -72,13 +74,4 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 
 
 * [Polish Parliamentary Corpus](http://clip.ipipan.waw.pl/PPC) text from proceedings of Polish Parliament, Sejm and Senate
-
-
-## Reserch papers
-
-* "Evaluation of Sentence Representations in Polish" - Sławomir Dadas, Michał Perełkiewicz, Rafał Poswiata 2019 https://arxiv.org/pdf/1910.11834.pdf
-* "Multi-level analysis and recognition of the text sentiment on the example of consumer opinions" - Kocoń Jan, Zaśko-Zielińska Monika, Miłkowski Piotr, 2019
-
-
-## Contributors
 
