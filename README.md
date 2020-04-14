@@ -31,7 +31,8 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Stempel](https://github.com/dzieciou/pystempel) (Python port) - algorithmic stemmer. See also [Elasticsearch plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-stempel.html)
 * [scaCy for Polish](http://spacypl.sigmoidal.io/) - extend spaCy, a popular production-ready NLP library, to fully support Polish language.
 * [KRNNT Polish morphological tagger ](https://github.com/kwrobel-nlp/krnnt) - KRNNT is a morphological tagger for Polish based on recurrent neural networks [Paper](http://ltc.amu.edu.pl/book2017/papers/PolEval1-6.pdf)
-* [Stanza](https://stanfordnlp.github.io/stanza/) (Python) - NLP analysis package from Stanford University 
+* [Stanza](https://stanfordnlp.github.io/stanza/) (Python) - NLP analysis package from Stanford University.
+Stanza is a Python natural language analysis package. It contains tools, which can be used for: sentence/word tokenizing, to generate base forms of words, parts of speech and morphological features, syntactic dependency parsing, recognizing named entities. Contains Polish model
 
 * A curated list of [Polish abbreviations for NLTK sentence tokenizer](https://gist.github.com/ksopyla/f05fe2f48bbc9de895368b8a7863b5c3) based on Wikipedia text
 
