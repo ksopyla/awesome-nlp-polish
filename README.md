@@ -11,8 +11,6 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
 * [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
 
-
-
 * [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
 * [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - Contextual string embeddings that capture latent syntactic-semantic information that goes beyond standard word embeddings. There are two models "pl-forward and pl-backward" 
 * [IPIPAN Word2vec polish models](http://dsmodels.nlp.ipipan.waw.pl/w2v.html)
@@ -29,7 +27,8 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 * [Morfologik](https://github.com/morfologik/morfologik-stemming) (Java) and [pyMorfologik](https://github.com/dmirecki/pyMorfologik) (Python wrapper) - dictionary-based morphological analyzer
 * [Morfeusz](http://morfeusz.sgjp.pl/download/) - morphological analyzer. See also [Elasticsearch plugin](https://github.com/allegro/elasticsearch-analysis-morfologik)
 * [Stempel](https://github.com/dzieciou/pystempel) (Python port) - algorithmic stemmer. See also [Elasticsearch plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-stempel.html)
-* [scaCy for Polish](http://spacypl.sigmoidal.io/) - extend spaCy, a popular production-ready NLP library, to fully support Polish language.
+* [spaCy for Polish](http://spacypl.sigmoidal.io/) - extend spaCy, a popular production-ready NLP library, to fully support Polish language.
+* [spacy-pl by IPI PAN](https://github.com/ipipan/spacy-pl) - integrating existing Polish language tools and resources into the spaCy pipeline
 * [KRNNT Polish morphological tagger ](https://github.com/kwrobel-nlp/krnnt) - KRNNT is a morphological tagger for Polish based on recurrent neural networks [Paper](http://ltc.amu.edu.pl/book2017/papers/PolEval1-6.pdf)
 * [Stanza](https://stanfordnlp.github.io/stanza/) (Python) - NLP analysis package from Stanford University.
 Stanza is a Python natural language analysis package. It contains tools, which can be used for: sentence/word tokenizing, to generate base forms of words, parts of speech and morphological features, syntactic dependency parsing, recognizing named entities. Contains Polish model
