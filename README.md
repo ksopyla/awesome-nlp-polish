@@ -8,7 +8,7 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 * [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
 * [Polish Roberta Model](https://github.com/sdadas/polish-nlp-resources?fbclid=IwAR0tv_YbuBwfFirGFQvqaGdCSL6BV-9pNW8Wm3gkGiyXNajE_M9tpY0hIaM#roberta) - model was trained on a corpus consisting of Polish Wikipedia dump, Polish books and articles, Polish Parliamentary Corpus
-* Allegro BERT - It has not been publish yet (12.2019) - but there is a poster - https://conference.mlinpl.org/pdf/CfC_AllPosters.pdf
+* [Allegro HerBERT](https://github.com/allegro/HerBERT) - Polish BERT model trained on Polish Corpora using only MLM objective with dynamic masking of whole words.
 * [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
 
 * [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
