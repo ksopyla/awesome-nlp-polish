@@ -4,9 +4,16 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 ![Awesome NLP Polish Logo](/Awesome_nlp_polish.png)
 
 
+Table of Contents:
+
+* [Polish text data]()
+* [Models and embeddings]()
+* [Libraries and tools]()
+* [Papers, articles, blogs]()
 
 
-## Datasets
+
+## Polish text datasets
 
 ### Task oriented datsets
 
