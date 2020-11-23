@@ -10,6 +10,7 @@ Table of Contents:
 * [Models and embeddings](#models-and-embeddings)
 * [Libraries and tools](#language-processing-tools-and-libraries)
 * [Papers, articles, blogs](#papers-articles-blog-post)
+* [Contribution](#contribution)
 
 
 
@@ -83,5 +84,8 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 * [Polish Sentence Evaluation](https://github.com/sdadas/polish-sentence-evaluation)- contains evaluation of eight sentence representation methods (Word2Vec, GloVe, FastText, ELMo, Flair, BERT, LASER, USE) on five polish linguistic tasks
 * [TRAINING ROBERTA FROM SCRATCH - THE MISSING GUIDE](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/) - complete user guide for trainning Roberta model with use of Huggingface/Transformers for polish
 
+## Contribution
 
+If you have or know valuable materials (datasets, models, posts, articles) that are missing here, please feel free to edit and submit a pull request.
+You can also send me a note on [LinkedIn](https://www.linkedin.com/in/krzysztofsopyla/) or via email:krzysztofsopyla@gmail.com.
 
