@@ -61,6 +61,7 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 * [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
 * [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
 * [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
+* [Polish Music Dataset](https://github.com/MalarzDawid/Polish-Music-Dataset)- Polish Music Dataset is the largest dataset with information about artists, songs and lyrics in Poland (now only Hip Hop artists).
 
 
 ### Raw texts
