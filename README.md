@@ -6,8 +6,8 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 
 Table of Contents:
 
-* [Polish text data]()
-* [Models and embeddings]()
+* [Polish text data](#polish-text-datasets)
+* [Models and embeddings](#models-and-embeddings)
 * [Libraries and tools]()
 * [Papers, articles, blogs]()
 
@@ -31,9 +31,10 @@ Table of Contents:
 
 
 ### Raw texts
+
+* [Clean Polish OSCAR]() - preprosessed polish oscar corpus, removed: foreign sentences(non-polish), non-valid polish senteces (eg. enums), corpus preprocessed by @Ermlab
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
 * [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
-
 * [Opus - the open parallel corpus](http://opus.nlpl.eu/) - you can select languages and download only polish file
     * [Polish OpenSubtitles v2018](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - sentences 45.9M, polish tokens 287.1M ,collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/) [raw txt corpus (unpacked 7.2GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.txt.gz) [tokenized txt corpus (unpacked 7.6GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.tok.gz).
     * [ParaCrawl v5](http://opus.nlpl.eu/ParaCrawl-v5.php) sentences 6.4M, polish tokens 157.1M [raw txt corpus (unpacked 1.1GB)](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.txt.gz) [tokenized txt corpus](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.tok.gz)
@@ -42,7 +43,7 @@ Table of Contents:
 * [Polish Parliamentary Corpus](http://clip.ipipan.waw.pl/PPC) text from proceedings of Polish Parliament, Sejm and Senate
 
 
-## Models (Embeddings)
+## Models and Embeddings
 
 * [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
 * [Polish Roberta Model](https://github.com/sdadas/polish-nlp-resources?fbclid=IwAR0tv_YbuBwfFirGFQvqaGdCSL6BV-9pNW8Wm3gkGiyXNajE_M9tpY0hIaM#roberta) - model was trained on a corpus consisting of Polish Wikipedia dump, Polish books and articles, Polish Parliamentary Corpus
@@ -60,7 +61,7 @@ Table of Contents:
 * [BPEmb: Subword Embeddings includes polish](https://nlp.h-its.org/bpemb/) - easy to use with [Flair](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/BYTE_PAIR_EMBEDDINGS.md)
 
 
-## Language processing resources and libs
+## Language processing tools and libraries
 
 * [Morfologik](https://github.com/morfologik/morfologik-stemming) (Java) and [pyMorfologik](https://github.com/dmirecki/pyMorfologik) (Python wrapper) - dictionary-based morphological analyzer
 * [Morfeusz](http://morfeusz.sgjp.pl/download/) - morphological analyzer. See also [Elasticsearch plugin](https://github.com/allegro/elasticsearch-analysis-morfologik)
@@ -74,8 +75,7 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 * A curated list of [Polish abbreviations for NLTK sentence tokenizer](https://gist.github.com/ksopyla/f05fe2f48bbc9de895368b8a7863b5c3) based on Wikipedia text
 
 
-## Useful articles or projects
-
+## Papers, articles, blog post 
 
 * [Benchmarks of some of polish NLP tools](http://clip.ipipan.waw.pl/benchmarks) - Single-word lemmatization and morphological analysis, Multi-word lemmatization,Disambiguated POS tagging, Dependency parsing, Shallow parsing, Named entity recognition, Summarization etc.
 * Github Repo with list of polish: word embeddings and language models (Word2vec, fasttext, Glove, Elmo) -  https://github.com/sdadas/polish-nlp-resources
