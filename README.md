@@ -8,8 +8,8 @@ Table of Contents:
 
 * [Polish text data](#polish-text-datasets)
 * [Models and embeddings](#models-and-embeddings)
-* [Libraries and tools]()
-* [Papers, articles, blogs]()
+* [Libraries and tools](#language-processing-tools-and-libraries)
+* [Papers, articles, blogs](#papers-articles-blog-post)
 
 
 
