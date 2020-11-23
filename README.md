@@ -4,6 +4,37 @@ A curated list of resources dedicated to Natural Language Processing (NLP) in po
 ![Awesome NLP Polish Logo](/Awesome_nlp_polish.png)
 
 
+
+
+## Datasets
+
+### Task oriented datsets
+
+* [The KLEJ (Kompleksowa Lista Ewaluacji Językowych) benchmark is a set of nine evaluation tasks for the Polish language understanding.](https://klejbenchmark.com/index.html)
+* PolEval datasets - 
+    * Hate speech classification -distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1) [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
+* [Polish CDSCorpus](http://zil.ipipan.waw.pl/Scwad/CDSCorpus) - The dataset for compositional distributional semantics. Polish CDSCorpus consists of 10K Polish sentence pairs which are human-annotated for semantic relatedness and entailment. 
+* [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700) - corpus of Polish reviews annotated with sentiment at the level of the whole text (*text*) and at the level of sentences (*sentence*) for the following domains: hotels, medicine, products and university (reviews*)    
+* [Ermlab Opineo dataset](https://github.com/Ermlab/pl-sentiment-analysis)- opineo reviews - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
+* HateSpeech corpus contains over 2000 posts crawled from public Polish web.http://zil.ipipan.waw.pl/HateSpeech
+* [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
+* [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
+* [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
+* [Polish Music Dataset](https://github.com/MalarzDawid/Polish-Music-Dataset)- Polish Music Dataset is the largest dataset with information about artists, songs and lyrics in Poland (now only Hip Hop artists).
+
+
+### Raw texts
+* [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
+* [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
+
+* [Opus - the open parallel corpus](http://opus.nlpl.eu/) - you can select languages and download only polish file
+    * [Polish OpenSubtitles v2018](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - sentences 45.9M, polish tokens 287.1M ,collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/) [raw txt corpus (unpacked 7.2GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.txt.gz) [tokenized txt corpus (unpacked 7.6GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.tok.gz).
+    * [ParaCrawl v5](http://opus.nlpl.eu/ParaCrawl-v5.php) sentences 6.4M, polish tokens 157.1M [raw txt corpus (unpacked 1.1GB)](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.txt.gz) [tokenized txt corpus](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.tok.gz)
+
+
+* [Polish Parliamentary Corpus](http://clip.ipipan.waw.pl/PPC) text from proceedings of Polish Parliament, Sejm and Senate
+
+
 ## Models (Embeddings)
 
 * [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
@@ -46,32 +77,4 @@ Stanza is a Python natural language analysis package. It contains tools, which c
 * [TRAINING ROBERTA FROM SCRATCH - THE MISSING GUIDE](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/) - complete user guide for trainning Roberta model with use of Huggingface/Transformers for polish
 
 
-
-## Datasets
-
-### Task oriented datsets
-
-* [The KLEJ (Kompleksowa Lista Ewaluacji Językowych) benchmark is a set of nine evaluation tasks for the Polish language understanding.](https://klejbenchmark.com/index.html)
-* PolEval datasets - 
-    * Hate speech classification -distinguish between normal/non-harmful tweets (class: 0) and tweets that contain any kind of harmful information (class: 1) [[PolEval 2019 Task6](http://2019.poleval.pl/index.php/tasks/task6)]  [[mirror GDrive](https://drive.google.com/drive/folders/1Dp7h9FrejUGK4jOeMsuxObiwP5h4x6q6?usp=sharing)]
-* [Polish CDSCorpus](http://zil.ipipan.waw.pl/Scwad/CDSCorpus) - The dataset for compositional distributional semantics. Polish CDSCorpus consists of 10K Polish sentence pairs which are human-annotated for semantic relatedness and entailment. 
-* [Wroclaw Corpus of Consumer Reviews Sentiment (WCCRS)](https://clarin-pl.eu/dspace/handle/11321/700) - corpus of Polish reviews annotated with sentiment at the level of the whole text (*text*) and at the level of sentences (*sentence*) for the following domains: hotels, medicine, products and university (reviews*)    
-* [Ermlab Opineo dataset](https://github.com/Ermlab/pl-sentiment-analysis)- opineo reviews - [GDrive](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view?usp=sharing)
-* HateSpeech corpus contains over 2000 posts crawled from public Polish web.http://zil.ipipan.waw.pl/HateSpeech
-* [Polish analogy dataset](https://dl.fbaipublicfiles.com/fasttext/word-analogies/questions-words-pl.txt) - example: "Ateny Grecja Bagdad Irak" - useful for word embeddings evaluation
-* [NKJP](http://nkjp.pl/index.php?page=0&lang=1) - National Corpus of Polish. It contains classic literature, daily newspapers, specialist periodicals and journals, transcripts of conversations, and a variety of short-lived and internet texts. Only a small sub-corpus is available for [download](http://clip.ipipan.waw.pl/NationalCorpusOfPolish?action=AttachFile&do=get&target=NKJP-PodkorpusMilionowy-1.2.tar.gz) (GNU GLP v.3). Direct contact and maybe necessary to get the full corpus. 
-* [PolEmo 2.0 Sentiment Analysis Dataset for CoNLL](https://clarin-pl.eu/dspace/handle/11321/710)
-* [Polish Music Dataset](https://github.com/MalarzDawid/Polish-Music-Dataset)- Polish Music Dataset is the largest dataset with information about artists, songs and lyrics in Poland (now only Hip Hop artists).
-
-
-### Raw texts
-* [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
-* [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
-
-* [Opus - the open parallel corpus](http://opus.nlpl.eu/) - you can select languages and download only polish file
-    * [Polish OpenSubtitles v2018](http://opus.nlpl.eu/OpenSubtitles-v2018.php) - sentences 45.9M, polish tokens 287.1M ,collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/) [raw txt corpus (unpacked 7.2GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.txt.gz) [tokenized txt corpus (unpacked 7.6GB)](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/pl.tok.gz).
-    * [ParaCrawl v5](http://opus.nlpl.eu/ParaCrawl-v5.php) sentences 6.4M, polish tokens 157.1M [raw txt corpus (unpacked 1.1GB)](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.txt.gz) [tokenized txt corpus](https://object.pouta.csc.fi/OPUS-ParaCrawl/v5/mono/pl.tok.gz)
-
-
-* [Polish Parliamentary Corpus](http://clip.ipipan.waw.pl/PPC) text from proceedings of Polish Parliament, Sejm and Senate
 
