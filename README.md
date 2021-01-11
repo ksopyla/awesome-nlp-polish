@@ -33,7 +33,7 @@ Table of Contents:
 
 ### Raw texts
 
-* [Clean Polish OSCAR]() - preprosessed polish oscar corpus, removed: foreign sentences(non-polish), non-valid polish senteces (eg. enums), corpus preprocessed by @Ermlab
+* [Clean Polish OSCAR](https://github.com/Ermlab/PoLitBert#data-processing-for-training) - preprosessed polish oscar corpus, removed: foreign sentences(non-polish), non-valid polish senteces (eg. enums), corpus preprocessed by @Ermlab
 * [OSCAR or Open Super-large Crawled ALMAnaCH coRpus](https://traces1.inria.fr/oscar/#corpus) -  is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus. Contains 109GB or 49GB of polish text.
 * [Polish Wikipedia dump](https://dumps.wikimedia.org/plwiki/) - regular monthly copy of Polish wikipedia. More then 4GB of text.
 * [Opus - the open parallel corpus](http://opus.nlpl.eu/) - you can select languages and download only polish file
@@ -46,10 +46,15 @@ Table of Contents:
 
 ## Models and Embeddings
 
-* [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
+### Polish Transformer models 
+
 * [Polish Roberta Model](https://github.com/sdadas/polish-nlp-resources?fbclid=IwAR0tv_YbuBwfFirGFQvqaGdCSL6BV-9pNW8Wm3gkGiyXNajE_M9tpY0hIaM#roberta) - model was trained on a corpus consisting of Polish Wikipedia dump, Polish books and articles, Polish Parliamentary Corpus
+* [PoLitBert](https://github.com/Ermlab/PoLitBert) - Polish RoBERTA model trained on Polish Wikipedia, Polish literature and Oscar. Major assumption is that quality text will give good model.
+* [PolBert](https://github.com/kldarek/polbert) - Polish BERT model. Model was trained with code provided in Google BERT's github repository. Merge with [huggingface/Transformers](https://huggingface.co/dkleczek/bert-base-polish-uncased-v1)
 * [Allegro HerBERT](https://github.com/allegro/HerBERT) - Polish BERT model trained on Polish Corpora using only MLM objective with dynamic masking of whole words.
 * [SlavicBert - multilingual BERT model](https://github.com/deepmipt/Slavic-BERT-NER) -BERT, Slavic Cased: 4 languages(Bulgarian,Czech, Polish, Russian), 12-layer, 768-hidden, 12-heads, 110M parameters, 600Mb. There is also another SlavicBert model http://docs.deeppavlov.ai/en/master/features/models/bert.html but I have problems to convert it to pytorch.
+
+### Other models
 
 * [ELMO embeddings](https://clarin-pl.eu/dspace/handle/11321/690?show=full) - A model of ELMo embeddings for Polish language trained on large textual corpora (KGR10).
 * [Zalando Flair polish models](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md) - Contextual string embeddings that capture latent syntactic-semantic information that goes beyond standard word embeddings. There are two models "pl-forward and pl-backward" 
