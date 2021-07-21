@@ -63,9 +63,8 @@ Table of Contents:
 * FastText polish model FB - train on: [Common Crawl](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md), [Wikipedia](https://github.com/facebookresearch/fastText/blob/master/docs/pretrained-vectors.md)
 * [FastText KGR10 polish model binary](https://clarin-pl.eu/dspace/handle/11321/600)
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
-
 * [BPEmb: Subword Embeddings includes polish](https://nlp.h-its.org/bpemb/) - easy to use with [Flair](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/BYTE_PAIR_EMBEDDINGS.md)
-
+* [ULMFiT for Tensorflow 2.0](https://tfhub.dev/edrone/collections/ulmfit/1) - this collection contains ULMFiT recurrent language models trained on Wikipedia dumps for English and Polish. The models themselves were trained using FastAI and then exported to a TensorFlow-usable format. Code is available on [Bitbucket](https://bitbucket.org/edroneteam/tf2_ulmfit/src/master/).
 
 ## Language processing tools and libraries
 
