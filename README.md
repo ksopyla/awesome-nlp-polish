@@ -77,6 +77,7 @@ Table of Contents:
 * [KRNNT Polish morphological tagger ](https://github.com/kwrobel-nlp/krnnt) - KRNNT is a morphological tagger for Polish based on recurrent neural networks [Paper](http://ltc.amu.edu.pl/book2017/papers/PolEval1-6.pdf)
 * [Stanza](https://stanfordnlp.github.io/stanza/) (Python) - NLP analysis package from Stanford University.
 Stanza is a Python natural language analysis package. It contains tools, which can be used for: sentence/word tokenizing, to generate base forms of words, parts of speech and morphological features, syntactic dependency parsing, recognizing named entities. Contains Polish model
+* [Duckling](https://github.com/facebook/duckling) (Haskel) - library for parsing text into structured data with support for Polish
 
 * A curated list of [Polish abbreviations for NLTK sentence tokenizer](https://gist.github.com/ksopyla/f05fe2f48bbc9de895368b8a7863b5c3) based on Wikipedia text
 
