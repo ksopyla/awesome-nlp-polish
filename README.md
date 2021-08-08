@@ -63,9 +63,8 @@ Table of Contents:
 * FastText polish model FB - train on: [Common Crawl](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md), [Wikipedia](https://github.com/facebookresearch/fastText/blob/master/docs/pretrained-vectors.md)
 * [FastText KGR10 polish model binary](https://clarin-pl.eu/dspace/handle/11321/600)
 * [Universal Sentence Encoder Multilingual](https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3) - sentence embeddings, it covers 16 languages (including Polish)
-
 * [BPEmb: Subword Embeddings includes polish](https://nlp.h-its.org/bpemb/) - easy to use with [Flair](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/BYTE_PAIR_EMBEDDINGS.md)
-
+* [ULMFiT for Tensorflow 2.0](https://tfhub.dev/edrone/collections/ulmfit/1) - this collection contains ULMFiT recurrent language models trained on Wikipedia dumps for English and Polish. The models themselves were trained using FastAI and then exported to a TensorFlow-usable format. Code is available on [Bitbucket](https://bitbucket.org/edroneteam/tf2_ulmfit/src/master/).
 
 ## Language processing tools and libraries
 
@@ -77,6 +76,7 @@ Table of Contents:
 * [KRNNT Polish morphological tagger ](https://github.com/kwrobel-nlp/krnnt) - KRNNT is a morphological tagger for Polish based on recurrent neural networks [Paper](http://ltc.amu.edu.pl/book2017/papers/PolEval1-6.pdf)
 * [Stanza](https://stanfordnlp.github.io/stanza/) (Python) - NLP analysis package from Stanford University.
 Stanza is a Python natural language analysis package. It contains tools, which can be used for: sentence/word tokenizing, to generate base forms of words, parts of speech and morphological features, syntactic dependency parsing, recognizing named entities. Contains Polish model
+* [Duckling](https://github.com/facebook/duckling) (Haskel) - library for parsing text into structured data with support for Polish
 
 * A curated list of [Polish abbreviations for NLTK sentence tokenizer](https://gist.github.com/ksopyla/f05fe2f48bbc9de895368b8a7863b5c3) based on Wikipedia text
 
